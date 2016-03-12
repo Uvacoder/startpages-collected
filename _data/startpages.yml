@@ -33,7 +33,7 @@
   source: "https://githubassets.s3.amazonaws.com/Startpages/WG-6429931-6407557/WG-6429931-6407557.zip"
   col-size: col-1
 
-- image_url: http://0xe4.github.io/startpages/Media/thumbs/Horizontal.jpg
+- image_url: /media/images/Horizontal.jpg
   full_path: /startpages/HorizontalList-0XE4/
   title: "Horizontal List"
   author: "0XE4"
