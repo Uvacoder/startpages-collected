@@ -30,7 +30,7 @@
   full_path: /startpages/HorizontalList-0XE4/
   title: "Horizontal List"
   author: "0XE4"
-  source: "ADD"
+  source: "https://github.com/startpages/startpages.github.io/tree/master/startpages/HorizontalList-0XE4"
   col-size: col-1
 
 - image_url: /media/images/Categories.jpg
@@ -156,7 +156,7 @@
   full_path: /startpages/Categories-Anon-Script/
   title: "Startpage (inc. Script)"
   author: "inexist3nce - startpage using a database"
-  source: "https://github.com/0XE4/0XE4.github.io/tree/master/startpages/Categories-Anon-Script"
+  source: "https://github.com/startpages/startpages.github.io/tree/master/startpages/Categories-Anon-Script"
   col-size: col-1
 
 - image_url: /media/images/skd1993home.jpg
@@ -170,7 +170,7 @@
   full_path: /startpages/MyStartPage-0XE4/
   title: "MyStartPage (Modified)"
   author: "0XE4 - My take on skd1993's"
-  source: "https://github.com/0XE4/0XE4.github.io/tree/master/startpages/MyStartPage-0XE4"
+  source: "https://github.com/startpages/startpages.github.io/tree/master/startpages/MyStartPage-0XE4"
   col-size: col-1
 
 - image_url: /media/images/tayumpeestart.jpg
