@@ -1,0 +1,226 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Elementary OS Startpage</title>
+<link rel="icon" type="image/png" href="img/logo.png" />
+<style type="text/css">
+<!--
+body,td,th {
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #999;
+}
+body {
+	background-color: #141414;
+	background-image: url(img/bg.png);
+	background-repeat: repeat-x;
+	margin-top: 0px;
+}
+a:link {
+	color: #999;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #999;
+}
+a:hover {
+	text-decoration: none;
+	color: #FFF;
+}
+a:active {
+	text-decoration: none;
+	color: #FFF;
+}
+#head {
+	width:593px;
+	height:98px;
+	margin:-10px auto;
+	background:url(img/search_bg.png) no-repeat;
+}
+#home {
+        opacity: 0.7;
+	width:198px;
+	height:-114px;
+	margin:20px auto;
+        image-shadow: 1px 1px 2px white;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+#date {
+	width:200px;
+	height:80px;
+	margin:0px auto;
+	padding-top:10px;
+	text-align:center;
+        text-shadow: 2px 2px 2px black;
+	font-family:"Vrinda";
+	text-transform:uppercase;
+	font-size:28px;
+	color:#1E90FF;opacity: 0.6;
+}
+#month {
+	font-size:18px;
+	color:#000000;opacity: 0.8;
+	text-align:center;
+        text-shadow: 1px 1px 2px white;
+        font-family:"Ubuntu";
+	text-transform:uppercase;
+}
+#navs { 
+	width:900px;
+	margin:10px auto;
+        
+}
+#navcontainer
+{
+width: 150px;
+padding:15px;
+text-shadow: 2px 2px 4px black;
+margin:0px auto;
+color: #333;
+
+}
+
+#navcontainer ul
+{
+list-style: none;
+margin: 0;
+padding: 0;
+border: none;
+
+}
+
+#navcontainer li
+{
+margin-bottom:8px;
+}
+
+#navcontainer li a
+{
+display: block;
+padding: 12px 10px 10px 0.5em;
+background-color: #202020; opacity: 0.7;
+background-image: url(img/block.png);border-top:1px solid white;
+color: #1E90FF;
+text-decoration:none;
+text-align:center;
+text-transform:uppercase;
+box-shadow: 4px 4px 5px #aaa;
+width: 100%;
+height: 100%;
+}
+
+html>body #navcontainer li a { width: auto; }
+
+#navcontainer li a:hover
+{
+background-color: #363636;
+color: #fff;
+}
+.search {
+	padding-left:160px;
+	padding-top:37px;
+	width:290px;
+	height:20px;
+}
+.bar {
+	color:#CCC;
+	width:290px;
+	height:20px;
+	background:#000;
+	border:0px;
+}
+-->
+</style></head>
+
+<body>
+<div id="head">
+<div class="search">
+<form method="get" action="http://www.google.com/search"><input class="bar" name="q" type="text" maxlength="255" value="" title="Google">
+</form>
+</div>
+</div>
+<div id="date"><script language="Javascript">
+
+var dayName = new Array ("Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi")
+
+ var monName = new Array ("Janvier", "Fevrier", "Mars", "Avril", "Mai", "Juin", "Juillet", "Aout", "Septembre", "Octobre", "Novembre", "Decembre")
+
+ var now = new Date
+
+ document.write("" + dayName[now.getDay()] + "<br><span id=month>"+now.getDate() +" " + monName[now.getMonth()] + "")
+ </script>
+</div>
+<div id="home"><img src="img/home.png" width="198" height="198" /></div>
+<div id="navs">
+<table width="480" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>
+<div id="navcontainer">
+<ul id="navlist">
+<li id="active"><a href="http://elementaryos.org/">Elementary OS</a></li>
+<li><a href="http://www.elementaryupdate.com/">Elementary Update</a></li>
+<li><a href="http://www.elementaryforum.org/">Elementary Forum</a></li>
+<li><a href="http://www.elementaryos-fr.org/">Elementary OS .fr</a></li>
+<li><a href="https://plus.google.com/communities/109917633749732566831">Elementary G+ .fr</a></li>
+<li id="active"><a href="https://plus.google.com/114635553671833442612/posts">Elementary G+ .En</a></li>
+</ul>
+</div>
+    </td>
+	<td>
+<div id="navcontainer">
+<ul id="navlist">
+<li id="active"><a href="https://www.youtube.com/">youtube</a></li>
+<li><a href="http://grooveshark.com/">grooveshark</a></li>
+<li><a href="http://www.radio.fr/">Radio fr</a></li>
+<li><a href="https://soundcloud.com/">Soundcloud</a></li>
+<li><a href="http://size-radio.com/">size radio</a></li>
+<li id="active"><a href="http://shoutcast.flashradio.info">flashradio</a></li>
+</ul>
+</div>
+    </td>
+	<td>
+<div id="navcontainer">
+<ul id="navlist">
+<li id="active"><a href="http://www.webupd8.org/">webupd8</a></li>
+<li><a href="http://www.ubuntu.com/">Ubuntu en</a></li>
+<li><a href="http://forum.ubuntu-fr.org/index.php">Ubuntu fr</a></li>
+<li><a href="http://www.tuxgarage.com/">Tux Garage</a></li>
+<li><a href="http://www.omgubuntu.co.uk/">OMG Ubuntu</a></li>
+<li id="active"><a href="http://www.noobslab.com/">Noobs lab</a></li>
+</ul>
+</div>
+    </td>
+    <td>
+<div id="navcontainer">
+<ul id="navlist">
+<li id="active"><a href="https://translate.google.fr/?hl=fr">Google traduction</a></li>
+<li id="active"><a href="http://www.frandroid.com/">FR Android</a></li>
+<li><a href="http://www.phonandroid.com/">phonandroid</a></li>
+<li><a href="http://mycolorscreen.com/">mycolorscreen</a></li>
+<li><a href="http://www.journaldugeek.com/">Journal du geek</a></li>
+<li id="active"><a href="http://korben.info/">Korben</a></li>
+</ul>
+</div>
+    </td>
+    <td>
+<div id="navcontainer">
+<ul id="navlist">
+<li id="active"><a href="http://forum.hardware.fr/">hardware fr</a></li>
+<li><a href="http://www.comptoir-hardware.com/">CDH</a></li>
+<li><a href="http://wallbase.cc/toplist">Wallbase</a></li>
+<li><a href="http://www.gmail.com/">Gmail</a></li>
+<li><a href="https://www.facebook.com/">facebook</a></li>
+<li id="active"><a href="http://infotrux.free.fr/">Infotrux</a></li>
+</ul>
+</div>
+    </td>
+  </tr>
+</table>
+</div>
+
+</div>
+</body>
+</html>
