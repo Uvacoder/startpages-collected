@@ -1,3 +1,10 @@
+- image_url: /media/images/allgenesconsideredstart.jpg
+  full_path: /startpages/start-allgenesconsidered/
+  title: "start"
+  author: "allgenesconsidered"
+  source: "https://github.com/allgenesconsidered/START"
+  col-size: col-1
+
 - image_url: /media/images/alecdtatumstart.jpg
   full_path: /startpages/start-alecdtatum/
   title: "start"
