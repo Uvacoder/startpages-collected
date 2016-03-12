@@ -1,3 +1,10 @@
+- image_url: /media/images/gokoururihome.jpg
+  full_path: /startpages/homepage-gokoururi/
+  title: "homepage"
+  author: "gokoururi"
+  source: "https://github.com/gokoururi/homepage"
+  col-size: col-1
+
 - image_url: /media/images/tuduromstart.jpg
   full_path: /startpages/startpage-tudurom/
   title: "Startpage"
