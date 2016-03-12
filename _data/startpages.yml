@@ -1,3 +1,17 @@
+- image_url: /media/images/brianwalborn2.jpg
+  full_path: /startpages/startpageV2-brianwalborn/
+  title: "startpageV2"
+  author: "brianwalborn"
+  source: "https://github.com/brianwalborn/startpageV2"
+  col-size: col-1
+
+- image_url: /media/images/brianwalborn1.jpg
+  full_path: /startpages/startpage-brianwalborn/
+  title: "startpage"
+  author: "brianwalborn"
+  source: "https://github.com/brianwalborn/startpage"
+  col-size: col-1
+
 - image_url: /media/images/gokoururihome.jpg
   full_path: /startpages/homepage-gokoururi/
   title: "homepage"

@@ -1,0 +1,113 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,200);
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  background: url(../img/background.jpg) center center no-repeat;
+  background-size: cover; }
+
+*::-webkit-input-placeholder {
+  opacity: 0.3; }
+
+.total-container {
+  height: 100vh;
+  width: 100%;
+  background: #fff;
+  opacity: 0.8;
+  font-size: 11px;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased; }
+
+p, li, a {
+  color: #2980b9;
+  font-family: "Roboto", "Consolas", "Helvetica", sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px; }
+
+.container {
+  height: 340px;
+  width: 90%;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+
+.favorites {
+  width: 90%;
+  margin: 10px auto 0 auto;
+  text-align: center; }
+
+.favorites p {
+  border-bottom: 1px solid #2980b9;
+  padding-right: 100%; }
+
+.list {
+  display: inline-block;
+  width: 20%;
+  margin: 0 15px;
+  vertical-align: text-top; }
+
+.list ul {
+  list-style-type: none; }
+
+a {
+  text-decoration: none;
+  display: block;
+  padding: 3px; }
+  a:hover {
+    color: #fff;
+    background: #2980b9; }
+
+.googles {
+  width: 90%;
+  margin: 25px auto;
+  text-align: center; }
+
+.googles p {
+  display: inline-block;
+  width: 25%;
+  margin: 10px 10px;
+  border: 1px solid #2980b9; }
+
+form {
+  width: 90%;
+  margin: auto;
+  padding: 5px;
+  text-align: center;
+  position: relative; }
+
+.search {
+  width: 400px;
+  height: 15px;
+  margin-right: -4px;
+  padding: 5px;
+  background: #fff;
+  font-family: "Roboto", "Consolas", "Helvetica", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  color: #2980b9;
+  border: 1px solid #2980b9; }
+  .search:hover {
+    border: 1px solid #6BB9F0; }
+  .search:focus {
+    outline: none;
+    border: 1px solid #6BB9F0; }
+
+.go {
+  height: 27px;
+  width: 40px;
+  background: #fff;
+  color: #2980b9;
+  border: 1px solid #2980b9; }
+  .go:hover {
+    background: #2980b9;
+    color: #fff;
+    cursor: pointer; }
+  .go:focus {
+    outline: none; }
