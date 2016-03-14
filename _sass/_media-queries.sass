@@ -1,8 +1,15 @@
 @media (max-width: 2000px)
     .header
+        height: 42px
         .page-content
             &:after
                 max-width: 35%
+        h1
+            position: static
+            display: inline-block
+            margin-top: 0px
+        .nav
+            margin-top: 11px
     .page-content
         margin: 75px auto
         max-width: 1600px
@@ -61,6 +68,21 @@
         padding: 10px 10px 0 5px
     .page-content
         margin: 95px auto
+
+@media (max-width: 620px)
+    .header
+        height: 75px
+        margin-bottom: 30px
+        h1
+            display: block
+            margin-top: 10px
+            font-size: 1.5em
+            text-align: center
+        .nav
+            display: block
+            text-align: center
+            float: none
+            margin-top: 10px
 
 @media (max-width: 500px)
     .header
