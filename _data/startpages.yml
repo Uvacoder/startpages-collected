@@ -1,3 +1,10 @@
+- image_url: /media/images/SeightSunset.jpg
+  full_path: "http://sizol8.github.io/sunset/"
+  title: "Sunset"
+  author: "Seight"
+  source: "https://github.com/sizol8/sunset/tree/gh-pages"
+  col-size: col-1
+
 - image_url: /media/images/chicorayhome.jpg
   full_path: /startpages/home_page_elementary_os_-chicoray/
   title: "Home Page Elementary OS"
