@@ -1,3 +1,10 @@
+- image_url: /media/images/campsite.jpg
+  full_path: "/startpages/Startpage-Campsite/"
+  title: "Campsite"
+  author: "MossFrog"
+  source: "https://github.com/MossFrog/Startpage-Campsite"
+  col-size: col-1
+
 - image_url: /media/images/SeightSunset.jpg
   full_path: "http://sizol8.github.io/sunset/"
   title: "Sunset"
