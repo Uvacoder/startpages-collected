@@ -1,0 +1,216 @@
+<!-- Save this HTML file and set it as your browser startpage e.g. -->
+<!-- This page is relatively reponsive now, using CSS3 flexbox -->
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="shortcut icon" href="favicon.ico">
+  
+  	<!--
+	        .---------------.
+	       /MMMMMMMdbMMMMMMMM\
+	       /MMMMMMMdbMMMMMMMM\
+	       /MMMMMMMdbMMMMMMMM\
+	        /MMMMMMdbMMMMMMMM\
+	        /MMMMMMdbMMMMMMM\
+	        /MMMMMMbdMMMMMMM\
+	/MMMM   MMMMMMMb dMMMMMMM. ,MM
+	/MMMM  MMMMMMMMb dMMMMMMMM\ `MM
+	.MMMMMMMMMMMMMM`  `\MMMMMMM.MMb
+	  `MMMMMMMMMM´       `MMMMMMMb
+	   `--------´         `------´
+	-->
+  
+  <title>
+    フロントページ
+  </title>
+
+  <!-- META -->
+  <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1.0, user-scalable=no">
+
+  <!-- JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  
+  <!-- CLOCK -->
+  <script type="text/javascript">
+    function GetClock(){
+    var d=new Date();
+    var nhour=d.getHours(),nmin=d.getMinutes();
+    if(nmin<=9) nmin="0"+nmin
+
+    document.getElementById('clockbox').innerHTML=""+nhour+":"+nmin+"";
+    }
+
+    window.onload=function(){
+    GetClock();
+    setInterval(GetClock,1000);
+    }
+  </script>
+  <style>
+    @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,700,500italic,700italic,900,900italic);
+
+    * {
+      font-family: 'Roboto';
+    }
+
+    body {
+      width: 100%;
+      height: 100%;
+      background: url('http://i.imgur.com/a2PBUC1.jpg'); /* PAGE BACKGROUND PICTURE, REMOVE THIS LINE IF YOU WANT TO USE A SOLID BG COLOR */
+      background-color: #9F1749; /* PAGE BACKGROUND COLOR */
+      background-position: bottom bottom;
+      background-size: 100%;
+    }
+
+    .main {
+      width: 68%;
+      height: 50%;
+      left: 18%;
+      position: absolute;
+      top: 25%;
+    }
+
+    .child {
+      display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    }
+
+    .wrapper {
+      -webkit-flex: 1 0 15%;
+    flex: 1 0 15%;
+      height: 280px;
+      width: 262px;
+      margin: 20px;
+      margin-bottom: 80px;
+    }
+
+    @media only screen and (max-width: 900px) {
+      .wrapper {
+        -webkit-flex: 1 0 30%;
+        flex: 1 0 30%;
+      }
+    }
+
+    @media only screen and (max-width: 600px) {
+      .wrapper {
+        -webkit-flex: 1 0 50%;
+        flex: 1 0 50%;
+      }
+    }
+
+    .header {
+      text-align: center;
+      border-top: 5px solid rgba(159,23,73,0.1);
+      border-right: 5px solid rgba(159,23,73,0.1);
+      border-left: 5px solid rgba(159,23,73,0.1);
+      height: 55px;
+      line-height: 54px;
+      background: rgba(228,231,236,0.6); //* BOX HEADER BACKGROUND *//
+      font-weight: 900;
+      margin: 0;
+      color: #DF2353;
+      font-size: 24px;
+      font-family: 'Noto Sans', sans-serif;
+      margin-bottom: -15px;
+    }
+
+    ul {
+      width: 100%;
+      background: rgba(42,54,59, 0.6); //* BOX BODY BACKGROUND *//
+      border: 5px solid rgba(159,23,73,0.1);
+      float: left;
+      padding: 20px 0px 20px 0px;
+    }
+
+    li {
+      padding: 10px;
+      font-size: 1.25vw;
+      text-align: center;
+      font-weight: 300;
+      list-style: none;
+    }
+
+    li a {
+      color: #fff; //* BODY FONT COLOR *//
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    li a:hover {
+      color: #F1C1CF;
+      cursor: pointer;
+      font-weight: 700;
+    }
+
+    #clockbox {
+      position: absolute;
+      text-align: center;
+      top: 90%;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      font-size: 48px;
+      color:#E4E7EC; //* CLOCK FONT COLOR *//
+    }
+
+    @media only screen and (max-width: 900px) {
+      #clockbox {
+        top: 0;
+        margin-top: 40px;
+      }
+    }
+  </style>
+
+</head>
+<body>
+
+  <div class="main">
+    <div class="child">
+      <div class="wrapper">
+        <div class="header">タイム</div>
+        <ul>
+          <li><a href="https://boards.4chan.org/g/" target="_blank">/g/</a> <a href="https://boards.4chan.org/gd/" target="_blank">/gd/</a> <a href="https://boards.4chan.org/biz/" target="_blank">/biz/</a></li>
+          <li><a href="https://facebook.com" target="_blank">フェイスブック</a></li>
+          <li><a href="https://reddit.com" target="_blank">Redditに</a></li>
+          <li><a href="https://youtube.com" target="_blank">ユーチューブ</a></li>
+          <li><a href="https://twitch.tv/directory/following" target="_blank">けいれん</a></li>
+        </ul>
+      </div>
+      <div class="wrapper">
+        <div class="header">ワーク</div>
+        <ul>
+          <li><a href="https://github.com" target="_blank">Github</a></li>
+          <li><a href="http://www.smashingmagazine.com/" target="_blank">Smashing Magazine</a></li>
+          <li><a href="https://css-tricks.com" target="_blank">CSS トリック</a></li>
+          <li><a href="" target="_blank">ジョブズ</a></li>
+          <li><a href="" target="_blank">一つ</a></li>
+        </ul>
+      </div>
+      <div class="wrapper">
+        <div class="header">ツール</div>
+        <ul>
+          <li><a href="https://todoist.com" target="_blank">騒ぎ</a></li>
+          <li><a href="https://trello.com" target="_blank">Trello</a></li>
+          <li><a href="https://kat.cr" target="_blank">やっつける</a></li>
+          <li><a href="https://gmail.com" target="_blank">Gmail</a></li>
+          <li><a href="https://translate.google.com" target="_blank">トランスレーション</a></li>
+        </ul>
+      </div>
+      <div class="wrapper">
+        <div class="header">タイム</div>
+        <ul>
+          <li><a href="https://twitter.com" target="_blank">ツイッター</a></li>
+          <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+          <li><a href="https://behance.net" target="_blank">Béhance</a></li>
+          <li><a href="" target="_blank">ジョブ</a></li>
+          <li><a href="" target="_blank">Facebookページ</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="clockbox" style=""></div>
+
+</body>
+</html>

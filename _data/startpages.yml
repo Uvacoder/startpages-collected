@@ -1,3 +1,17 @@
+- image_url: /media/images/simpleboxes.jpg
+  full_path: "/startpages/su1ts-SimpleBoxes/"
+  title: "SimpleBoxes"
+  author: "su1ts"
+  source: "https://github.com/su1ts/startpages/blob/master/startpage-boxes.html"
+  col-size: col-1
+
+- image_url: /media/images/homepagev4.jpg
+  full_path: "https://grillmaster-t28.github.io/startpage/home.html"
+  title: "Homepage V4"
+  author: "grillmaster-t28"
+  source: "https://github.com/grillmaster-t28/grillmaster-t28_-_homepage-v4"
+  col-size: col-1
+
 - image_url: /media/images/campsite.jpg
   full_path: "/startpages/Startpage-Campsite/"
   title: "Campsite"
