@@ -1,0 +1,243 @@
+body {
+  font-family: '04B03';
+  background-image: url("http://i.imgur.com/setChDF.jpg");
+  font-size: 2em;
+  cursor: default;
+  overflow: hidden;
+}
+
+img {
+  z-index: -2;
+  position: fixed; 
+  max-height: 75%;
+  bottom: 0%; 
+  left: 5%;
+}
+
+.img2 {
+  z-index: -2;
+  position: fixed;
+  max-height: 75%;
+  bottom: 0%;
+  left: 80%;
+}
+
+#navparent {
+  position: fixed; 
+  font-size: 82%;
+  top: 55%;
+  margin-top: -10.5%;
+  left: 0;
+  right: 0;
+  width: 50%;
+}
+
+nav {
+  position: fixed;
+  text-align: center;
+  font-size: 4vh;
+  cursor: default; 
+  top: 33.6%;
+  width: 50%;
+  left: 24%;
+  margin-left: auto;
+  margin-right: auto; 
+  z-index: 2;
+}
+
+a {
+  text-decoration: none;
+  font-size: 4vh;
+  cursor: default;
+  color: #576890; 
+  transition: color 0.2s;
+}
+
+a:hover{
+  color: #4F7DF9;
+}
+
+li > ul {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s;
+  overflow-y: hidden;
+  max-height: 0;
+  padding: 0 5px;
+}
+
+li:hover > ul {
+  visibility: visible;
+  opacity: 1;
+  transition: all 0.5s;
+  max-height: 200px;
+  max-width: auto;
+  overflow-y: hidden;
+}
+
+nav > ul > li {
+  background: #ffffff;
+  padding: 1px 10px;
+  border: 1px solid #cecde2; 
+  display: inline-table; 
+  border-radius: 5px;
+}
+
+nav ul ul li {
+  display: block; 
+  padding: 5px 0px;
+}
+
+p {
+  position: fixed;
+  font-size: 8vh;
+  color: #576890; 
+  text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  top: 20%;      
+  width: 100%; 
+  left: 0%;
+  right: 0%; 
+  text-align: center; 
+  font-family: 'jackeyfont';
+  cursor: default;
+}
+
+hr {
+  position: fixed; 
+  margin-bottom: -10px;
+  width: 30%; 
+  top: 38vh; 
+  left: 33%;
+  z-index: -2;
+  color: #cecde2; 
+  height: 1px;
+  border-top: 1px solid #cecde2;
+}
+
+.nav2 {
+  text-align: center;
+  position: fixed; 
+  width: 50%;    /* 60% */
+  top: 43%;
+  margin-left: 0%;
+  margin-right: 0%;
+  font-size: 5vh;
+  cursor: default;
+  z-index: 1;
+}
+
+.nav2 > .ul2 > li,a {
+  border: none; 
+  background: none;
+}
+
+.ul2 > li a {
+  font-size: 50%;
+}
+
+#searchfield .textinput {
+
+  position: absolute; top:1%; left: 20%; border:1px solid #cecde2; 
+  border-top-left-radius: 5px 5px; 
+  border-bottom-left-radius: 5px 5px;
+}
+
+#searchfield .submitinput {
+
+  position: fixed;
+  top:.955%; 
+  left:77%; 
+  border:1px solid #cecde2; 
+    border-top-right-radius: 5px 5px;
+    border-bottom-right-radius: 5px 5px; 
+  color: #cecde2; 
+  transition: all 0.2s;
+}
+
+#searchfield .submitinput:active {
+  color: #551a8b;
+  background-color: #eaeaea;
+}
+
+.submitinput::-moz-focus-inner { 
+  border: 0;
+}
+
+@font-face {
+  font-family: jackeyfont;
+  src: url (../fonts/jackeyfont.ttf); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 04B03; 
+  src: url (../fonts/04B_03__.ttf);
+  font-weight: normal; 
+  font-style: normal;
+}
+
+@media screen and (max-width: 920px) {
+  /* You can edit this portion to make it phone/tablet compatible */
+}
+
+.main {
+  border-style: solid;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+  border-width: 1px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+  border-color: #000000;
+    border-top-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-left-color: rgb(0, 0, 0);
+  position: fixed;
+  top: 10%;
+  width: 50%;
+  height: 50%;
+  left: 0%;
+  right: 0%;
+  margin: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+  background-color: #fdf5f5;
+  text-align: center;
+}
+
+.img3 {
+  background-image: url("http://i.imgur.com/1oqPOhH.gif");
+  background-size: cover;
+  border-style: solid;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+  border-width: 1px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+  border-color: #000000;
+    border-top-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-left-color: rgb(0, 0, 0);
+  top: -60%;
+  width: 15.5vh;
+  left: 0%;
+  right: 0%;
+  margin: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+  z-index: 3;
+ }     
