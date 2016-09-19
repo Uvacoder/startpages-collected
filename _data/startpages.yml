@@ -1,3 +1,24 @@
+- image_url: /media/images/robyreshy.jpg
+  full_path: "http://robyreshy.altervista.org/"
+  title: "HopePage"
+  author: "RobyReshy"
+  source: "http://robyreshy.altervista.org/"
+  col-size: col-1
+
+- image_url: /media/images/periodic.jpg
+  full_path: "/startpages/twentytwoo-periodic/"
+  title: "periodic"
+  author: "twentytwoo"
+  source: "https://github.com/startpages/startpages.github.io/files/468489/index.txt"
+  col-size: col-1
+
+- image_url: /media/images/mpcshhome.jpg
+  full_path: "/startpages/mpcsh-startpage/"
+  title: "startpage"
+  author: "mpcsh"
+  source: "https://git.mpcsh.xyz/dotfiles.git/tree/startpage"
+  col-size: col-1
+
 - image_url: /media/images/katawadojo.jpg
   full_path: "/startpages/Katawa-Dojo-Startpage/"
   title: "KatawaDojo"
