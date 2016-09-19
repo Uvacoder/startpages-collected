@@ -1,3 +1,10 @@
+- image_url: /media/images/navigatron.jpg
+  full_path: "https://navigatron.github.io/MyStartPage/"
+  title: "MyStartPage"
+  author: "Navigatron"
+  source: "https://github.com/Navigatron/MyStartPage"
+  col-size: col-1
+
 - image_url: /media/images/robyreshy.jpg
   full_path: "http://robyreshy.altervista.org/"
   title: "HopePage"
