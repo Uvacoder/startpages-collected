@@ -1,3 +1,24 @@
+- image_url: /media/images/matyiustart.jpg
+  full_path: "https://matyiu.github.io/Startpage/"
+  title: "Startpage"
+  author: "matyiu"
+  source: "https://github.com/matyiu/Startpage"
+  col-size: col-1
+
+- image_url: /media/images/tabstart.jpg
+  full_path: "https://koryschneider.github.io/tab-a-startpage/"
+  title: "Tab: A Startpage"
+  author: "KorySchneider"
+  source: "https://github.com/koryschneider/tab-a-startpage"
+  col-size: col-1
+
+- image_url: /media/images/oliverstart.jpg
+  full_path: "/startpages/Startpage_oliver-grech/"
+  title: "Startpage"
+  author: "oliver-grech"
+  source: "https://github.com/startpages/startpages.github.io/tree/master/startpages/Startpage_oliver-grech"
+  col-size: col-1
+
 - image_url: /media/images/E6Homepage.jpg
   full_path: "https://e66666666.github.io/homepage/"
   title: "Homepage"
