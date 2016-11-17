@@ -1,5 +1,5 @@
 <!-- created 08/03/16, feel free to edit -->
-<!-- last edit : 22/07/16 - 16:08 -->
+<!-- last edit : 03/11/16 - 11:56 -->
 
 <!DOCTYPE html>
 <html>
@@ -18,17 +18,15 @@
     from { opacity: 0; }
     to   { opacity: 1; }
 }
-/* requires Gotham Medium */
+/* requires Helvetica */
 body {
-	background-color: #27282B;
+	background-color: #0A0A0A;
 	font-family: Helvetica;
-
     -moz-animation: fadein 2s; /* Firefox < 16 */
 }
 
-/* top margin */
-.box {
-  margin-top: 6rem;
+.master-container {
+	margin:2%;
 }
 
 a, a:active,a:focus, a:hover {
@@ -38,16 +36,6 @@ a, a:active,a:focus, a:hover {
 	text-decoration: none !important;
 }
 
-/* top title (welcome) */
-.maintitle {
-	color: #fff;
-	font-weight: bold;
-	font-size: calc(13.9vw + 3vh);
-	padding-left: 0px !important;
-	position: relative;
-	line-height: 0.8;
-	margin-left: -1rem;
-}
 
 /* 2 letter title */
 .title {
@@ -68,33 +56,27 @@ a, a:active,a:focus, a:hover {
 	width: 100px !important;
 	background-color: #fff;
 	margin: 4px;
-	color: #27282B;
+	color: #0A0A0A;
  	padding: 5px;
-   transition: background-color 0.5s ease;
+   transition: background-color 0.2s ease;
  }
 
  .square:hover {
- 	background-color: #27282B;
+ 	background-color: transparent;
 	color: white;
-    transition: background-color 0.5s ease;
  }
 
 .clear {
 	clear: both;
 }
+
 </style>
  
 </head>
 <body>
-<!-- master container -->
-<div class="box col-md-9 col-sm-12 col-md-offset-1">          
-	<!-- child container -->
-	<div class="maintitle col-md-12 col-sm-12 col-xs-12">
-		<p>	welcome</p>
-	</div>
 
-<!-- begin tiles -->
-<div class="row-fluid">
+
+<div class="master-container">
 
 <!-- YouTube -->
 <a href="https://www.youtube.com"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">YT</div><div class="clear"></div><div class="subtitle">YouTube</div></span></a>
@@ -111,8 +93,26 @@ a, a:active,a:focus, a:hover {
 <!-- Steam -->
 <a href="https://store.steampowered.com/login/"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">ST</div><div class="clear"></div><div class="subtitle">Steam</div></span></a>
 
-<!-- milkyy.tk -->
-<a href="http://twentytwoo.github.io"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">MK</div><div class="clear"></div><div class="subtitle">milkyy.tk</div></span></a>
+<!-- cymath -->
+<a href="https://www.cymath.com/"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">CY</div><div class="clear"></div><div class="subtitle">cymath</div></span></a>
+
+<!-- MyMaths -->
+<a href="https://www.mymaths.co.uk/"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">MM</div><div class="clear"></div><div class="subtitle">MyMaths</div></span></a>
+
+<!-- movw-0x16.cf -->
+<a href="http://twentytwoo.github.io"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">MW</div><div class="clear"></div><div class="subtitle">movw-0x16</div></span></a>
+
+<!-- mowv-space -->
+<a href="http://82.25.220.106"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">MS</div><div class="clear"></div><div class="subtitle">movw-space</div></span></a>
+
+<!-- mowv-space auth -->
+<a href="http://82.25.220.106/kanri/login"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">MK</div><div class="clear"></div><div class="subtitle">movw-kanri</div></span></a>
+
+<!-- mktt.ad -->
+<a href="twentytwoo.github.io/mktt.ad"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">MA</div><div class="clear"></div><div class="subtitle">movw-ad</div></span></a>
+
+<!-- comfy-sounds -->
+<a href="http://twentytwoo.github.io/comfy-sounds"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">CS</div><div class="clear"></div><div class="subtitle">comfy-sounds</div></span></a>
 
 <!-- Pomf.is -->
 <a href="https://pomf.is"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">PI</div><div class="clear"></div><div class="subtitle">Pomf.is</div></span></a>
@@ -147,6 +147,9 @@ a, a:active,a:focus, a:hover {
 <!-- Moodle -->
 <a href="https://vle.leggott.ac.uk/"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">MO</div><div class="clear"></div><div class="subtitle">Moodle</div></span></a>
 
+<!-- TSR -->
+<a href="http://www.thestudentroom.co.uk/forumdisplay.php?f=144"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">TR</div><div class="clear"></div><div class="subtitle">TSR</div></span></a>
+
 <!-- Drive -->
 <a href="https://drive.google.com/drive/u/0/my-drive"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">DR</div><div class="clear"></div><div class="subtitle">Drive</div></span></a>
 
@@ -155,9 +158,6 @@ a, a:active,a:focus, a:hover {
 
 <!-- Wikipedia -->
 <a href="https://en.wikipedia.org/wiki/Main_Page"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">WI</div><div class="clear"></div><div class="subtitle">Wikipedia</div></span></a>
-
-<!-- mktt.ad -->
-<a href="twentytwoo.github.io/mktt.ad"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">MA</div><div class="clear"></div><div class="subtitle">mktt.ad</div></span></a>
 
 <!-- Google API -->
 <a href="https://console.developers.google.com/"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">AI</div><div class="clear"></div><div class="subtitle">Google API</div></span></a>
@@ -197,7 +197,6 @@ a, a:active,a:focus, a:hover {
 
 <!-- /w/ -->
 <a href="http://boards.4chan.org/w/"><span class="square col-md-1 col-sm-1 col-xs-1"><div class="title">w</div><div class="clear"></div><div class="subtitle">4ch/w</div></span></a>
-
 <!-- square container end -->
 </div>
 <!-- scripts -->
