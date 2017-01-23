@@ -1,3 +1,38 @@
+- image_url: /media/images/traderjohn-yogic.jpg
+  full_path: "http://johnho.ca/startpage/"
+  title: "Yogic Startpage"
+  author: "traderjohn"
+  source: "https://github.com/traderjohn/yogic-startpage/"
+  col-size: col-1
+
+- image_url: /media/images/TacoAnon-homepage5.jpg
+  full_path: "https://tacoanon.github.io/"
+  title: "homepage-v5"
+  author: "TacoAnon"
+  source: "https://github.com/TacoAnon/Homepages/tree/master/homepage-v5"
+  col-size: col-1
+
+- image_url: /media/images/merxvell-Cybercafe.jpg
+  full_path: "https://merxvell.github.io/"
+  title: "Cybercafe"
+  author: "Merxvell"
+  source: "https://github.com/Merxvell/merxvell.github.io"
+  col-size: col-1
+
+- image_url: /media/images/xprmt-term.jpg
+  full_path: "https://xprmt.github.io/terminal/"
+  title: "Terminal"
+  author: "xprmt"
+  source: "https://github.com/xprmt/xprmt.github.io/tree/master/terminal"
+  col-size: col-1
+
+- image_url: /media/images/nielsvanrijn_Dark.jpg
+  full_path: "/startpages/nielsvanrijn_Dark-Startpage/"
+  title: "Dark Startpage"
+  author: "nielsvanrijn"
+  source: "https://github.com/startpages/startpages.github.io/tree/master/startpages/nielsvanrijn_Dark-Startpage"
+  col-size: col-1
+
 - image_url: /media/images/matyiustart.jpg
   full_path: "https://matyiu.github.io/Startpage/"
   title: "Startpage"
