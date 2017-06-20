@@ -11,3 +11,10 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 *.lnk
+*.DS_Store
+.AppleDouble
+.LSOverride
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes

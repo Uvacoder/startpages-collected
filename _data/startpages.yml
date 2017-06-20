@@ -1,3 +1,17 @@
+- image_url: /media/images/fideltstart.png
+  full_path: "https://bb.githack.com/fidelt/startpage/raw/ff1f431305bf00635aaea7ef89cdea0e71578520/index.html"
+  title: "Startpage"
+  author: "fidelt"
+  source: "https://bitbucket.org/fidelt/startpage"
+  col-size: col-1
+
+- image_url: /media/images/capunoblind.png
+  full_path: "http://capuno.es/blind/"
+  title: "Blind"
+  author: "Capuno"
+  source: "https://github.com/Capuno/Blind"
+  col-size: col-1
+
 - image_url: /media/images/traderjohn-yogic.jpg
   full_path: "http://johnho.ca/startpage/"
   title: "Yogic Startpage"
