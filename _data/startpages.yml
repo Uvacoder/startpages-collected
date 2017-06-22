@@ -1,3 +1,10 @@
+- image_url: /media/images/tommykubios.png
+  full_path: "/startpages/BIOS-tommyku/"
+  title: "Start page BIOS"
+  author: "tommyku"
+  source: "https://github.com/tommyku/start-page-bios"
+  col-size: col-1
+
 - image_url: /media/images/fideltstart.png
   full_path: "https://bb.githack.com/fidelt/startpage/raw/ff1f431305bf00635aaea7ef89cdea0e71578520/index.html"
   title: "Startpage"
