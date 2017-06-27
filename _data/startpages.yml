@@ -1,3 +1,10 @@
+- image_url: /media/images/kemslyterminal.png
+  full_path: "https://kemsly.github.io/terminal/"
+  title: "terminal"
+  author: "kemsly"
+  source: "https://github.com/kemsly/kemsly.github.io/tree/master/terminal"
+  col-size: col-1
+
 - image_url: /media/images/tommykubios.png
   full_path: "/startpages/BIOS-tommyku/"
   title: "Start page BIOS"
