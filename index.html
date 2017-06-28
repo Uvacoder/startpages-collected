@@ -11,12 +11,14 @@ layout: default
 <div class="img-grid clearfix">
 
 {% for image in site.data.startpages %}
+  <filterhold>
   <div class="img-container {{ image.col-size }} {{ image.type }}">
     <a href="{{ image.full_path }}" target="_blank"><img class="lazyload" data-src="{{ image.image_url }}" alt="image"></a>
     <p class="firstline">{{ image.title }}</p>
     <p>By {{ image.author }}</p>
     <p class="lastline"><a href="{{ image.source }}" target="_blank"><i class="fa fa-file-text-o"></i></a></p>
   </div>
+  </filterhold>
 {% endfor %}
 
 </div>
