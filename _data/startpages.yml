@@ -1,3 +1,35 @@
+- image_url: /media/images/kemslyterminal.png
+  full_path: "https://kemsly.github.io/terminal/"
+  title: "terminal"
+  author: "kemsly"
+  source: "https://github.com/kemsly/kemsly.github.io/tree/master/terminal"
+  tags: "wm windows boxes"
+  col-size: col-1
+
+- image_url: /media/images/tommykubios.png
+  full_path: "/startpages/BIOS-tommyku/"
+  title: "Start page BIOS"
+  author: "tommyku"
+  source: "https://github.com/tommyku/start-page-bios"
+  tags: "machine bios"
+  col-size: col-1
+
+- image_url: /media/images/fideltstart.png
+  full_path: "https://bb.githack.com/fidelt/startpage/raw/ff1f431305bf00635aaea7ef89cdea0e71578520/index.html"
+  title: "Startpage"
+  author: "fidelt"
+  source: "https://bitbucket.org/fidelt/startpage"
+  tags: "wallpaper search"
+  col-size: col-1
+
+- image_url: /media/images/capunoblind.png
+  full_path: "http://capuno.es/blind/"
+  title: "Blind"
+  author: "Capuno"
+  source: "https://github.com/Capuno/Blind"
+  tags: "windows links"
+  col-size: col-1
+
 - image_url: /media/images/traderjohn-yogic.jpg
   full_path: "http://johnho.ca/startpage/"
   title: "Yogic Startpage"
@@ -31,6 +63,7 @@
   title: "Dark Startpage"
   author: "nielsvanrijn"
   source: "https://github.com/startpages/startpages.github.io/tree/master/startpages/nielsvanrijn_Dark-Startpage"
+  tags: "modern clean"
   col-size: col-1
 
 - image_url: /media/images/matyiustart.jpg
@@ -59,6 +92,7 @@
   title: "Homepage"
   author: "E66666666"
   source: "https://github.com/E66666666/homepage"
+  tags: "boxed search linklists"
   col-size: col-1
 
 - image_url: /media/images/navigatron.jpg

@@ -5,18 +5,21 @@ layout: default
 <div class="slogan clearfix">
   <h2></h2>
   <p>A curated listing of beautiful and interesting Startpages from around the web.<br />
-  Startpages Listed: 51</p>
+  Startpages Listed: 55</p>
 </div>
 
 <div class="img-grid clearfix">
 
 {% for image in site.data.startpages %}
+  <filterhold>
   <div class="img-container {{ image.col-size }} {{ image.type }}">
     <a href="{{ image.full_path }}" target="_blank"><img class="lazyload" data-src="{{ image.image_url }}" alt="image"></a>
     <p class="firstline">{{ image.title }}</p>
     <p>By {{ image.author }}</p>
     <p class="lastline"><a href="{{ image.source }}" target="_blank"><i class="fa fa-file-text-o"></i></a></p>
+    <p style="display: none;">{{ image.tags }}</p>
   </div>
+  </filterhold>
 {% endfor %}
 
 </div>
