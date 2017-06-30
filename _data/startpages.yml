@@ -11,7 +11,7 @@
   title: "terminal"
   author: "kemsly"
   source: "https://github.com/kemsly/kemsly.github.io/tree/master/terminal"
-  tags: "wm windows boxes"
+  tags: "wm windows boxes command-line terminal"
   col-size: col-1
 
 - image_url: /media/images/tommykubios.png
@@ -35,7 +35,7 @@
   title: "Blind"
   author: "Capuno"
   source: "https://github.com/Capuno/Blind"
-  tags: "windows links"
+  tags: "windows links search"
   col-size: col-1
 
 - image_url: /media/images/traderjohn-yogic.jpg
@@ -64,6 +64,7 @@
   title: "Terminal"
   author: "xprmt"
   source: "https://github.com/xprmt/xprmt.github.io/tree/master/terminal"
+  tags: "command-line terminal"
   col-size: col-1
 
 - image_url: /media/images/nielsvanrijn_Dark.jpg
@@ -86,6 +87,7 @@
   title: "Tab: A Startpage"
   author: "KorySchneider"
   source: "https://github.com/koryschneider/tab-a-startpage"
+  tags: "minimal search"
   col-size: col-1
 
 - image_url: /media/images/oliverstart.jpg
