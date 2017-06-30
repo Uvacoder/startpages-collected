@@ -1,3 +1,11 @@
+- image_url: /media/images/mintab.png
+  full_path: "https://koryschneider.github.io/mintab"
+  title: "mintab"
+  author: "Kory Schneider"
+  source: "https://www.github.com/koryschneider/mintab"
+  tags: "minimal command-line"
+  col-size: col-1
+
 - image_url: /media/images/kemslyterminal.png
   full_path: "https://kemsly.github.io/terminal/"
   title: "terminal"
