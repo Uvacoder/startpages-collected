@@ -7,5 +7,6 @@ Fully 'responsive' and mobile friendly.<br />Auto loads more startpages as you s
 <br /><br />
 ### Future Additions
 A short list of some additions we would like to add to the project.
+- [ ] Contributing Guide for easy PR submissions
 - [ ] Wiki section with a basic tutorial for writing a startpage
 - [X] Lighter colored emporium design
