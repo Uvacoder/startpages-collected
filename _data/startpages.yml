@@ -1,5 +1,13 @@
+- image_url: /media/images/katalysatorn-edge.png
+  full_path: "https://katalysatorn.github.io/MSEdge-StartPage/dark/"
+  title: "MS Edge Startpage"
+  author: "katalysatorn"
+  source: "https://github.com/katalysatorn/MSEdge-StartPage"
+  tags: "minimal"
+  col-size: col-1
+
 - image_url: /media/images/mintab.png
-  full_path: "https://koryschneider.github.io/mintab"
+  full_path: "https://koryschneider.github.io/mintab/"
   title: "mintab"
   author: "Kory Schneider"
   source: "https://www.github.com/koryschneider/mintab"
