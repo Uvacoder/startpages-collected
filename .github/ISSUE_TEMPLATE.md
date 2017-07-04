@@ -11,4 +11,6 @@ Of course if you are not submitting a page but an issue, disregard all of this.
 
 Link to Startpage/Files:  
 Link to source code of the startpage:  
-Tags (to help searches): 
+Startpage name:  
+Author name:  
+Tags (to help searches):  

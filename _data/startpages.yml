@@ -1,3 +1,11 @@
+- image_url: /media/images/scar45-crt.png
+  full_path: "https://scar45.github.io/retro-crt-startpage/index.html"
+  title: "Retro CRT Terminal"
+  author: "scar45"
+  source: "https://github.com/scar45/retro-crt-startpage"
+  tags: "retro crt terminal scanline css3"
+  col-size: col-1
+
 - image_url: /media/images/katalysatorn-edge.png
   full_path: "https://katalysatorn.github.io/MSEdge-StartPage/dark/"
   title: "MS Edge Startpage"
