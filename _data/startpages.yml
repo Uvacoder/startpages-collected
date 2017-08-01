@@ -1,3 +1,11 @@
+- image_url: /media/images/retropage.jpg
+  full_path: "https://retropage.co"
+  title: "RetroPage"
+  author: "Ravenger Gaming"
+  source: "https://github.com/RavengerGaming/RetroPage"
+  tags: "simple minimal"
+  col-size: col-1
+
 - image_url: /media/images/scar45-crt.png
   full_path: "https://scar45.github.io/retro-crt-startpage/index.html"
   title: "Retro CRT Terminal"
@@ -413,12 +421,4 @@
   title: "jsh - Functional terminal page"
   author: "Vyris"
   source: "https://github.com/Vyris/jsh"
-  col-size: col-1
-  
-- image_url: /media/images/retropage.jpg
-  full_path: "https://retropage.co"
-  title: "RetroPage"
-  author: "Ravenger Gaming"
-  source: "https://github.com/RavengerGaming/RetroPage"
-  tags: "simple minimal"
   col-size: col-1
