@@ -1,3 +1,11 @@
+- image_url: /media/images/localstorage.png
+  full_path: "https://paloranta.github.io/startpage-localstorage/"
+  title: "Localstorage link list"
+  author: "paloranta"
+  source: "https://github.com/paloranta/startpage-localstorage"
+  tags: "simple editable link-list"
+  col-size: col-1
+
 - image_url: /media/images/hipsterbrent.png
   full_path: "https://brentschaper.github.io/Hipster-Startpage/"
   title: "Hipster-Startpage"
