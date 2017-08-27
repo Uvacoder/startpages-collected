@@ -1,3 +1,11 @@
+- image_url: /media/images/hipsterbrent.png
+  full_path: "https://brentschaper.github.io/Hipster-Startpage/"
+  title: "Hipster-Startpage"
+  author: "brentschaper"
+  source: "https://github.com/brentschaper/Hipster-Startpage"
+  tags: "simple hipster"
+  col-size: col-1
+
 - image_url: /media/images/retropage.jpg
   full_path: "https://retropage.co"
   title: "RetroPage"
