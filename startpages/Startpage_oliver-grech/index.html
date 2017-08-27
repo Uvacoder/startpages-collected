@@ -1,66 +1,71 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-    <link rel="stylesheet" type="text/css" href="style.css"/>
     <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<style>
+	a {
+		border-radius: 5px;
+		color: #FFFFFF;
+		margin: 10px;
+		padding: 3px;
+		text-decoration: none;
+	}
+
+	a:hover {
+		background-color: #263238;
+	}
+
+	body {
+		background-color: #263238;
+		font-family: Arial, Helvetica, sans-serif;
+		margin: 40px auto;
+		max-width: 900px;
+	}
+
+	#card {
+		background-color:#37474f;
+		box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+		display: flex;
+		height: 285px;	
+	}
+
+	#content {
+		   margin: 10px;
+	}
+
+	#title {
+		color: #FFFFFF;
+		font-size: 1.5em;
+		margin-bottom: 15px;	
+	}
+	</style>
 </head>
-
 <body>
-   
-    <div class="card horizontal blue-grey darken-3">
-        <div class="card-image">
-            
-        <!--Your waifu here-->
-        <img src="welcome.png">
-            
-        </div>
-        <div class="card-stacked">
-            <div class="card-content">
-            <h5 class="white-text ">Welcome to the Internet</h5>
-            
-            <div class="row">
-                <!--First column-->
-                <div class="col s3">
-                    <a href="https://inbox.google.com" class="white-text"><div>Inbox</div></a>
-                    <a href="https://calendar.google.com" class="white-text"><div>Calendar</div></a>
-                    <a href="https://drive.google.com" class="white-text"><div>Drive</div></a>
-                    <a href="https://www.dropbox.com/home" class="white-text"><div>Dropbox</div></a>
-                    <a href="https://mega.nz/" class="white-text"><div>Mega</div></a>
-                </div>
-                
-                <!--Second column-->
-                <div class="col s3">
-                    <a href="http://stackoverflow.com" class="white-text"><div>Stack Overflow</div></a>
-                    <a href="https://github.com/" class="white-text"><div>Github</div></a>
-                    <a href="https://openclassrooms.com" class="white-text"><div>OpenClassrooms</div></a>
-                    <a href="https://chocolatey.org" class="white-text"><div>Chocolatey</div></a>
-                    <a href="https://love2d.org/" class="white-text"><div>Löve2D</div></a>
-                </div>
-
-                <!--Third column-->
-                <div class="col s3">
-                    <a href="https://www.gog.com/" class="white-text"><div>GoG</div></a>
-                    <a href="http://www.kronos-wow.com/" class="white-text"><div>Kronos</div></a>
-                    <a href="https://www.facepunch.com/" class="white-text"><div>Facepunch</div></a>
-                    <a href="https://7chan.org" class="white-text"><div>7chan</div></a>
-                    <a href="http://www.drivethrurpg.com/" class="white-text"><div>DriveThruRpg</div></a>
-                </div> 
-            </div> 
-                
-            </div>
-        </div>
+    <div id="card">
+        <!--Your waifu here--> 
+		<img id="waifu" src="waifu.png">
+		<div id="content">
+			<div id="title">Welcome to the Internet</div>
+			<table>
+			<tbody>
+	            <tr>
+					<td><a href="https://mail.google.com/" target="_blank">Gmail</a></td>
+					<td><a href="https://drive.google.com/" target="_blank">Drive</a></td>
+					<td><a href="https://keep.google.com/" target="_blank">Keep</a></td>
+				</tr>
+				<tr>
+					<td><a href="https://github.com/" target="_blank">GitHub</a></td>
+					<td><a href="https://bitbucket.org/" target="_blank">Bitbucket</a></td>
+					<td><a href="https://www.dropbox.com/" target="_blank">Dropbox</a></td>
+				</tr>
+				<tr>
+					<td><a href="" target="_blank">Link 1</a></td>
+					<td><a href="" target="_blank">Link 2</a></td>
+					<td><a href="" target="_blank">Link 3</a></td>
+				</tr>
+			</tbody>
+			</table>
+		</div>
     </div>
-    
-    <form method="get" action="http://www.google.com/search" target="_blank">
-        <input type="text" placeholder="Google" class="search" name='q'>
-        </input>
-    </form>
-  
-    <!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
 </body>
 </html>
