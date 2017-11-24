@@ -438,3 +438,10 @@
   author: "Vyris"
   source: "https://github.com/Vyris/jsh"
   col-size: col-1
+  
+- image_url: /media/images/nexusStartPage.png
+  full_path: "https://eduardozepeda.github.io/nexusStartPage/"
+  title: "Nexus Startpage"
+  author: "EduardoZepeda"
+  source: "https://github.com/EduardoZepeda/nexusStartPage"
+  col-size: col-1
