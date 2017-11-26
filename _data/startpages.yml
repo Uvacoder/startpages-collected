@@ -1,3 +1,11 @@
+- image_url: /media/images/nexusStartPage.png
+  full_path: "https://eduardozepeda.github.io/nexusStartPage/"
+  title: "Nexus Startpage"
+  author: "EduardoZepeda"
+  source: "https://github.com/EduardoZepeda/nexusStartPage"
+  tags: "simple editable dark"
+  col-size: col-1
+
 - image_url: /media/images/localstorage.png
   full_path: "https://paloranta.github.io/startpage-localstorage/"
   title: "Localstorage link list"
@@ -437,11 +445,4 @@
   title: "jsh - Functional terminal page"
   author: "Vyris"
   source: "https://github.com/Vyris/jsh"
-  col-size: col-1
-  
-- image_url: /media/images/nexusStartPage.png
-  full_path: "https://eduardozepeda.github.io/nexusStartPage/"
-  title: "Nexus Startpage"
-  author: "EduardoZepeda"
-  source: "https://github.com/EduardoZepeda/nexusStartPage"
   col-size: col-1
