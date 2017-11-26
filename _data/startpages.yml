@@ -1,3 +1,11 @@
+- image_url: /media/images/nexusStartPage.png
+  full_path: "https://eduardozepeda.github.io/nexusStartPage/"
+  title: "Nexus Startpage"
+  author: "EduardoZepeda"
+  source: "https://github.com/EduardoZepeda/nexusStartPage"
+  tags: "simple editable dark"
+  col-size: col-1
+
 - image_url: /media/images/capunodecaux.png
   full_path: "https://decaux.capuno.cat/"
   title: "Decaux"
