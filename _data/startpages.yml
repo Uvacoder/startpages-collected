@@ -6,6 +6,14 @@
   tags: "simple editable dark"
   col-size: col-1
 
+- image_url: /media/images/capunodecaux.png
+  full_path: "https://decaux.capuno.cat/"
+  title: "Decaux"
+  author: "Capuno"
+  source: "https://github.com/Capuno/Decaux"
+  tags: "blocks keyboard search"
+  col-size: col-1
+
 - image_url: /media/images/localstorage.png
   full_path: "https://paloranta.github.io/startpage-localstorage/"
   title: "Localstorage link list"
