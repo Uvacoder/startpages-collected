@@ -30,11 +30,11 @@
   tags: "simple hipster"
   col-size: col-1
 
-- image_url: /media/images/retropage.jpg
+- image_url: /media/images/retropage-2.jpg
   full_path: "https://retropage.co"
   title: "RetroPage"
-  author: "Ravenger Gaming"
-  source: "https://github.com/RavengerGaming/RetroPage"
+  author: "Ravenger"
+  source: "https://github.com/RavengerNetwork/RetroPage"
   tags: "simple minimal"
   col-size: col-1
 
