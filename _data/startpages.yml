@@ -1,3 +1,11 @@
+- image_url: /media/images/eighth.png
+  full_path: "http://damienstewart.me/devola-startpage/"
+  title: "Devola"
+  author: "damienstewart"
+  source: "https://github.com/damienstewart/Startpages/tree/master/Devola%20Startpage"
+  tags: "simple dark rss"
+  col-size: col-1
+
 - image_url: /media/images/nexusStartPage.png
   full_path: "https://eduardozepeda.github.io/nexusStartPage/"
   title: "Nexus Startpage"
