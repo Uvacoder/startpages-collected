@@ -1,3 +1,19 @@
+- image_url: /media/images/torvimdark.png
+  full_path: "https://hexx112.github.io/startpage/startpages/slate/"
+  title: "Dark slate"
+  author: "torvim"
+  source: "https://github.com/hexx112/startpage/tree/master/startpages/slate"
+  tags: "slate dark startpage new tab"
+  col-size: col-1
+
+- image_url: /media/images/seanvreehome.png
+  full_path: "https://seanvree.github.io/homepage/"
+  title: "Homepage"
+  author: "seanvree & haltdev"
+  source: "https://github.com/seanvree/homepage"
+  tags: "google minimal dark"
+  col-size: col-1
+
 - image_url: /media/images/eighth.png
   full_path: "http://damienstewart.me/devola-startpage/"
   title: "Devola"
