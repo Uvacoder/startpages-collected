@@ -1,3 +1,11 @@
+- image_url: /media/images/yuune-vimstart.png
+  full_path: "https://yuune.github.io/yuune-vimstart/"
+  title: "vimstart"
+  author: "nandavera"
+  source: "https://github.com/yuune/yuune-vimstart"
+  tags: "clean vim inspired startpage"
+  col-size: col-1
+
 - image_url: /media/images/torvimdark.png
   full_path: "https://hexx112.github.io/startpage/startpages/slate/"
   title: "Dark slate"
