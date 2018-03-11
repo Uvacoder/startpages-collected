@@ -1,3 +1,11 @@
+- image_url: /media/images/n0stV@p0R.png
+  full_path: "https://jettscythe.github.io"
+  title: "n0stV@p0R"
+  author: "Jett Scythe"
+  source: "https://github.com/JettScythe/jettscythe.github.io"
+  tags: "clean vaporwave basic startpage"
+  col-size: col-1
+
 - image_url: /media/images/yuune-vimstart.png
   full_path: "https://yuune.github.io/yuune-vimstart/"
   title: "vimstart"
