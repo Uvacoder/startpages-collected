@@ -1,3 +1,11 @@
+- image_url: /media/images/msdvvr.jpg
+  full_path: "https://msdvvr.github.io/startpage/"
+  title: "startpage"
+  author: "MSDVVR"
+  source: "https://github.com/msdvvr/startpage"
+  tags: "startpage clean multi"
+  col-size: col-1
+  
 - image_url: /media/images/n0stV@p0R.png
   full_path: "https://jettscythe.github.io"
   title: "n0stV@p0R"
