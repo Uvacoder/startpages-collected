@@ -502,3 +502,10 @@
   author: "Vyris"
   source: "https://github.com/Vyris/jsh"
   col-size: col-1
+
+- image_url: /media/images/jaredkent.png
+  full_path: /startpages/jaredk3nt
+  title: "Simplicity - Jaredk3nt"
+  author: "Jaredk3nt"
+  source: "https://github.com/Jaredk3nt/homepage"
+  col-size: col-1
