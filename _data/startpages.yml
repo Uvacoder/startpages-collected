@@ -1,3 +1,11 @@
+
+- image_url: /media/images/jaredkent.png
+  full_path: /startpages/jaredk3nt
+  title: "Simplicity - Jaredk3nt"
+  author: "Jaredk3nt"
+  source: "https://github.com/Jaredk3nt/homepage"
+  col-size: col-1
+  
 - image_url: /media/images/msdvvr.jpg
   full_path: "https://msdvvr.github.io/startpage/"
   title: "startpage"
