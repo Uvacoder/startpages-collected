@@ -1,3 +1,10 @@
+- image_url: /media/images/saschadiercks.png
+  full_path: "http://www.metafolio.de/side-projects/startpage/"
+  title: "Browser Startpage"
+  author: "Sascha Diercks"
+  source: "https://github.com/saschadiercks/browserStartpage"
+  tags: "speedidial quickdial startpage tiles"
+  col-size: col-1
 
 - image_url: /media/images/jaredkent.png
   full_path: /startpages/simplicity-jaredk3nt
