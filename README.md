@@ -5,6 +5,8 @@ Fully 'responsive' and mobile friendly.<br />Auto loads more startpages as you s
 
 [![alt text](https://raw.githubusercontent.com/startpages/startpages.github.io/master/media/preview.jpg)](https://startpages.github.io/ "Startpage Emporium")
 <br /><br />
+### Contribute
+You can submit pages by going through the [contributing guidelines](https://github.com/startpages/startpages.github.io/blob/master/.github/CONTRIBUTING.md)<br /><br />
 ### Future Additions
 A short list of some additions we would like to add to the project.
 - [ ] Wiki section with a basic tutorial for writing a startpage
