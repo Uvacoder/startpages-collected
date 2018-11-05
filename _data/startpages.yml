@@ -1,3 +1,11 @@
+- image_url: /media/images/salveimperator.png
+  full_path: /startpages/salveimperator/
+  title: "Salve imperator!"
+  author: "Anon"
+  source: "https://github.com/startpages/startpages.github.io/tree/master/startpages/salveimperator"
+  tags: "simple shortcuts search"
+  col-size: col-1
+
 - image_url: /media/images/saschadiercks.png
   full_path: "http://www.metafolio.de/side-projects/startpage/"
   title: "Browser Startpage"
