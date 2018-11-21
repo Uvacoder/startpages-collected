@@ -525,3 +525,10 @@
   author: "Vyris"
   source: "https://github.com/Vyris/jsh"
   col-size: col-1
+
+- image_url: /media/images/fluidwindows.png
+  full_path: "https://github.com/JamesAC42/startpage"
+  title: "Fluid Design"
+  author: "JamesAC42"
+  source: "https://github.com/JamesAC42/startpage"
+  col-size: col-1
