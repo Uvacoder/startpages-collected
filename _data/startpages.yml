@@ -1,3 +1,11 @@
+- image_url: /media/images/kamikaltab2.jpg
+  full_path: "http://kamikal.github.io/tab2/"
+  title: "tab 2"
+  author: "Kamikal"
+  source: "https://github.com/kamikal/kamikal.github.io/tree/master/tab2"
+  tags: "simple search category"
+  col-size: col-1
+
 - image_url: /media/images/aqua.jpg
   full_path: "https://hatsumei.tech/startpage/"
   title: "Aqua"
