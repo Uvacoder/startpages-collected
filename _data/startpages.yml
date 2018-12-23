@@ -1,3 +1,11 @@
+- image_url: /media/images/dawntab.png
+  full_path: "https://0-l.github.io/dawn/"
+  title: "Dawn"
+  author: "0-l"
+  source: "https://github.com/0-l/dawn"
+  tags: "dark to-do search weather"
+  col-size: col-1
+
 - image_url: /media/images/kamikaltab2.jpg
   full_path: "http://kamikal.github.io/tab2/"
   title: "tab 2"
