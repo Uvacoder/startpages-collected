@@ -1,3 +1,11 @@
+- image_url: /media/images/yurucamp.png
+  full_path: "https://qnnie.github.io/YuruCamp-Startpage/"
+  title: "Yurucamp Particles"
+  author: "Qnnie"
+  source: "https://github.com/Qnnie/YuruCamp-Startpage"
+  tags: "particles anime menus card themed"
+  col-size: col-1
+
 - image_url: /media/images/dawntab.png
   full_path: "https://0-l.github.io/dawn/"
   title: "Dawn"
