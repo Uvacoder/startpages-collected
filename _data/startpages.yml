@@ -1,3 +1,11 @@
+- image_url: /media/images/minimal_startpage.png
+  full_path: "https://pedro-pablo.github.io/minimal-startpage-template/"
+  title: "Minimal Startpage"
+  author: "pedro-pablo"
+  source: "https://github.com/pedro-pablo/minimal-startpage-template"
+  tags: "simple minimal search clean dark"
+  col-size: col-1
+
 - image_url: /media/images/dawntab.png
   full_path: "https://0-l.github.io/dawn/"
   title: "Dawn"
