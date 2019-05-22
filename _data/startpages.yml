@@ -4,6 +4,7 @@
   author: "pedro-pablo"
   source: "https://github.com/pedro-pablo/minimal-startpage-template"
   tags: "simple minimal search clean dark"
+  col-size: col-1
 
 - image_url: /media/images/yurucamp.png
   full_path: "https://qnnie.github.io/YuruCamp-Startpage/"
