@@ -1,10 +1,18 @@
+- image_url: /media/images/etacarinaea-startpage.png
+  full_path: "http://etacarinaea.github.io/startpage/"
+  title: "startpage"
+  author: "etacarinaea"
+  source: "https://github.com/etacarinaea/startpage"
+  tags: "simple minimal search keyboard controls"
+  col-size: col-1
+
 - image_url: /media/images/arkits.jpg
   full_path: "https://arkits.github.io/newtab/"
   title: "ArKits' Newtab Page"
   author: "arkits"
   source: "https://github.com/arkits/newtab"
   col-size: col-1
-  
+
 - image_url: /media/images/minimal_startpage.png
   full_path: "https://pedro-pablo.github.io/minimal-startpage-template/"
   title: "Minimal Startpage"
