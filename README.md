@@ -1,3 +1,5 @@
+https://startpages.github.io
+https://github.com/startpages/startpages.github.io
 # Startpage Emporium
 A curated list of startpages for your browser.<br />Est. Jan 2016<br /><br />
 ### Features
